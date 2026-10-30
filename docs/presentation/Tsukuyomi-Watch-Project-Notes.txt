@@ -291,6 +291,11 @@ Every tracked/nonignored deliverable is listed below. Generated dependency/build
 | `docs/COMPLETION_NOTES.md` | Implemented remaining requirements, push prerequisites and practical constraints. |
 | `docs/PRODUCTION.md` | Deployment setup, environment wiring and operational notes. |
 | `docs/SPIRIT_LENS.md` | Local AI processing, model provenance and image-restoration safeguards. |
+| `docs/demo/.gitignore` | Excludes generated recordings, narration audio and frame outputs from Git. |
+| `docs/demo/README.md` | Three-minute recording timeline, truthful demo scope and reproduction instructions. |
+| `docs/demo/demo-plan.json` | Seven timed scenes and the generated English narration text, totaling 180 seconds. |
+| `docs/demo/prepare-narration.ps1` | Uses local Windows speech synthesis, measures each WAV and fits narration to scene allocations. |
+| `docs/demo/record-demo.mjs` | Records only an isolated public-app browser, performs the demo, and exports captioned H.264/AAC video plus transcript/provenance. |
 | `docs/presentation/.gitignore` | Excludes generated slide PNG previews from Git. |
 | `docs/presentation/DEMO_GUIDE.md` | Five-minute demonstration, fallbacks and panel questions. |
 | `docs/presentation/READINESS.md` | Detailed historical rubric audit with 28-test baseline, requirement mapping and limitations. |

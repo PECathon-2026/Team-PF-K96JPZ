@@ -186,6 +186,13 @@ group('packages/logger/', {'index.ts': 'Shared Winston console logger, readable 
 group('packages/typescript-config/', {'base.json':'Shared strict TypeScript compiler defaults.', 'nextjs.json':'TypeScript defaults specialized for Next.js apps.', 'node.json':'TypeScript defaults specialized for Node packages.'})
 group('packages/eslint-config/', {'README.md':'Shared lint configuration usage notes.', 'base.js':'Base JavaScript/TypeScript lint rules.', 'next.js':'Next.js-specific lint rules.', 'react-internal.js':'Shared React component/hook lint rules.'})
 group('docs/', {'API_SETUP.md':'Data-provider setup, URLs and configuration instructions.', 'BONUS_FEATURES.md':'Archive, signal-analysis and Honor behavior and limits.', 'COMPLETION_NOTES.md':'Implemented remaining requirements, push prerequisites and practical constraints.', 'PRODUCTION.md':'Deployment setup, environment wiring and operational notes.', 'SPIRIT_LENS.md':'Local AI processing, model provenance and image-restoration safeguards.'})
+group('docs/demo/', {
+    '.gitignore': 'Excludes generated recordings, narration audio and frame outputs from Git.',
+    'README.md': 'Three-minute recording timeline, truthful demo scope and reproduction instructions.',
+    'demo-plan.json': 'Seven timed scenes and the generated English narration text, totaling 180 seconds.',
+    'prepare-narration.ps1': 'Uses local Windows speech synthesis, measures each WAV and fits narration to scene allocations.',
+    'record-demo.mjs': 'Records only an isolated public-app browser, performs the demo, and exports captioned H.264/AAC video plus transcript/provenance.',
+})
 group('docs/presentation/', {
     '.gitignore':'Excludes generated slide PNG previews from Git.',
     'README.md':'Presentation contents and generation/export instructions.',

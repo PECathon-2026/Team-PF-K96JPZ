@@ -1,0 +1,41 @@
+{
+  "durationSeconds": 180,
+  "url": "https://tsukuyomi-watch.vercel.app",
+  "scenes": [
+    {
+      "title": "Tsukuyomi Watch · The Samurai’s Celestial Guide",
+      "seconds": 18,
+      "text": "This is Tsukuyomi Watch, the Samurai's Celestial Guide. It brings location planning, cosmic events, and careful image restoration into one Japanese inspired application. Let's follow an observer from choosing a place to exploring the light."
+    },
+    {
+      "title": "01 · Watchtower · Choose where to observe",
+      "seconds": 32,
+      "text": "We start at the Watchtower, our stargazing location finder. City search works worldwide. Here, we search Delhi and use it as the center for nearby observing spots. These spots come from a curated catalog. Selecting one reveals its next nighttime forecast, including cloud cover, humidity, and visibility. The Night Honor Score combines those weather factors into a transparent planning estimate. It currently excludes light pollution and moonlight."
+    },
+    {
+      "title": "02 · Celestial Scroll · Choose when to observe",
+      "seconds": 30,
+      "text": "The Celestial Scroll helps us choose when to look up. Its Japanese lunar calendar includes lunar months alongside familiar civil dates. We can filter moon phases, launches, eclipses, and approximate meteor windows. Opening an event keeps us inside the application, with timing, source information, and calendar reminders. ISS predictions are available for the selected observing site. Background push additionally needs browser permission and an active delivery scheduler."
+    },
+    {
+      "title": "03 · Spirit Lens · Restore, compare and inspect",
+      "seconds": 55,
+      "text": "Next is Spirit Lens. We load the clearly labelled synthetic star field and choose gentle restoration. A pretrained DnCNN model runs locally in a browser worker. The app verifies its model files and applies bounded edits to a preview, with protections around detected sources. Once restoration finishes, the comparison slider reveals the original and cleaned image. We can zoom in and toggle object overlays to inspect candidate stars and extended sources. These labels are tentative, and brightness is uncalibrated pixel data. The measurement panel explains how much the image changed. We can export the restored preview and its analysis report. The archive importer can also retrieve NASA SkyView survey images. Those images are archival observations, rather than a live telescope feed."
+    },
+    {
+      "title": "04 · Signal Observatory · Screen measurements",
+      "seconds": 20,
+      "text": "The Signal Observatory explores changes in measured light. Here, a labelled synthetic light curve contains an injected brightening. The app plots the measurements and flags unusual points using robust statistics. It also accepts spectral data. These are candidates for follow up, rather than confirmed discoveries."
+    },
+    {
+      "title": "05 · Honor journal · Practice and personalize",
+      "seconds": 15,
+      "text": "The Honor journal rewards self reported observations with points and badges, stored on this device. Four Japanese inspired palettes and independent light and dark modes personalize the experience. Navigation notes explain what each section means."
+    },
+    {
+      "title": "Explore the live app · tsukuyomi-watch.vercel.app",
+      "seconds": 10,
+      "text": "Tsukuyomi Watch connects planning, observing, and careful image exploration. Thirty one automated tests pass. Try the live application, and begin your own journey beneath the stars."
+    }
+  ]
+}
